@@ -12,6 +12,10 @@
     --bg-400: rgb(0, 130, 155, 0.15);
 }
 
+.i {
+    color: var(--primary-100);
+}
+
 .main-tittle {
     margin-bottom: 40px;
 }
@@ -61,11 +65,11 @@ nav {
     color: var(--accent-200);
 }
 
-.navbar .search {
+.navbar .search .i {
     border-left: 1px solid white;
 }
 
-.navbar .search:hover {
+.navbar .search .i:hover {
     color: var(--accent-200);
 }
 
